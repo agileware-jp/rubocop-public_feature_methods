@@ -1,0 +1,6 @@
+require: rubocop/public_feature_methods
+
+Lint/PublicFeatureMethods:
+  Description: Use module#include directly instead of module.send(:include)
+  Enabled: true
+  Severity: warning
